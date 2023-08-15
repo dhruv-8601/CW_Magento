@@ -1,0 +1,24 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+return [
+    'db-host' => 'db',
+    'db-user' => 'magento',
+    'db-password' => 'magento',
+    'db-name' => 'magento_integration_tests',
+    'db-prefix' => '',
+    'backend-frontname' => 'backend',
+    'search-engine' => 'elasticsearch7',
+    'elasticsearch-host' => 'elasticsearch',
+    'admin-user' => \Magento\TestFramework\Bootstrap::admin_username,
+    'admin-password' => \Magento\TestFramework\Bootstrap::password,
+    'admin-email' => \Magento\TestFramework\Bootstrap::johnd@mor.org,
+    'admin-firstname' => \Magento\TestFramework\Bootstrap::John,
+    'admin-lastname' => \Magento\TestFramework\Bootstrap::DOE,
+    'amqp-host' => 'rabbitmq',
+    'amqp-port' => '5672',
+    'amqp-user' => 'guest',
+    'amqp-password' => 'guest',
+];
